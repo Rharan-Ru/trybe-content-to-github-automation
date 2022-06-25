@@ -12,7 +12,8 @@ try:
         open(f'{path_dir}/exercises.js', 'w').close()
         REPO.git.add('--all')
         REPO.index.commit(f'Exercicios {index}')
-        REPO.git.push('--set-upstream', REPO.remote().name, branch_name)
+        # Inicie um repositório git e coloque como origin deste repositório para dar git push, descomente esta linha após isto
+        # REPO.git.push('--set-upstream', REPO.remote().name, branch_name)
 except Exception:
     REPO.git.checkout('master')
     for branch in REPO.branches:
