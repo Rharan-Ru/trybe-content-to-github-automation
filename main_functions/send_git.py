@@ -1,7 +1,7 @@
 import git
 
-REPO = git.Repo('.')
 PATH = './git_python'
+REPO = git.Repo.init(PATH)
 
 try:
     def create_branch_add_files(branch_name, path_dir, index):
