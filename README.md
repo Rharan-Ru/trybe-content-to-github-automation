@@ -9,6 +9,12 @@ Para usar siga os passos a seguir:
 ## Quickly setup to start
 Este projeto contém 2 drivers padrão (Google Chrome e Firefox), porém para se certificar de estar usando o driver certo siga os passos do próprio site [Selenium Webdrivers](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/)
 
+Primeiramente vamos configurar nosso ambiente virtual, é bem rápido, ele cria um ambiente para nossas dependências:
+````
+python3 -m venv venv
+source venv/bin/activate
+````
+
 Para instalar todas dependências do projeto utilize o comando:
 ````
 python3 pip install -r requirements.txt
