@@ -1,0 +1,4 @@
+Aqui se encontra todas pastas e arquivos organizador pela branch.
+
+Para modificar o caminho do repositório git e o local dos arquivos vá para 
+main_functions/send_git.py e configure seu caminho por lá.
