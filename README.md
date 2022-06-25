@@ -17,7 +17,7 @@ source venv/bin/activate
 
 Para instalar todas dependências do projeto utilize o comando:
 ````
-python3 pip install -r requirements.txt
+pip install -r requirements.txt
 ````
 
 Então você está pronto para utilizar o script, apenas rode o comando:
