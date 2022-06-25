@@ -24,3 +24,11 @@ Então você está pronto para utilizar o script, apenas rode o comando:
 ````
 python3 main.py
 ````
+
+Para apagar as branchs e os arquivos da própria, execute o comando:
+
+````
+python3 clear_git_branchs.py
+````
+
+### Obs: Para modificar o caminho dos arquivos e da pasta em que será feito o git init do repositório vá para main_functions/send_git.py, e modifique a variável PATH.
