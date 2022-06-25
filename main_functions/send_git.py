@@ -1,6 +1,6 @@
 import git
 
-REPO = git.Repo('./git_python')
+REPO = git.Repo('.')
 PATH = './git_python'
 
 try:
@@ -12,11 +12,6 @@ try:
         REPO.index.commit(f'Exercicios {index}')
         REPO.git.push('--set-upstream', REPO.remote().name, branch_name)
 except Exception:
-    REPO.git.checkout('main')
-    for branch in REPO.branches:
-        if branch.name != 'main':
-            REPO.git.branch('-D', branch)
-finally:
     REPO.git.checkout('main')
     for branch in REPO.branches:
         if branch.name != 'main':
